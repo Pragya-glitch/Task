@@ -1,0 +1,24 @@
+# Task
+Q2 
+import'dart:io';
+
+Void main()
+{
+  int? number;
+  Print("Enter a number:");
+  Vardata=std in read line sync();
+   number= int. try parse(data??'-1');
+
+if ( number==null)
+{
+  Print ("Invalid input");
+}
+  elseif(number is even)
+{
+Print ("$number is an even number")
+}
+  elseif(number is odd)
+{
+Print ($number is an odd number")
+  }
+}
